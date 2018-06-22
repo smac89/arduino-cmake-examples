@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="Tuxworld">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping local="$USER_HOME$/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino/CDC.cpp" web="/" />
+            <mapping local="$USER_HOME$/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp" web="/" />
+            <mapping local="$USER_HOME$/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp" web="/" />
+            <mapping local="$USER_HOME$/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp" web="/" />
+            <mapping local="$USER_HOME$/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp" web="/" />
+            <mapping local="$USER_HOME$/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp" web="/" />
+            <mapping local="$USER_HOME$/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino/IPAddress.cpp" web="/" />
+            <mapping local="$USER_HOME$/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp" web="/" />
+            <mapping local="$USER_HOME$/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino/Print.cpp" web="/" />
+            <mapping local="$USER_HOME$/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino/Stream.cpp" web="/" />
+            <mapping local="$USER_HOME$/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino/Tone.cpp" web="/" />
+            <mapping local="$USER_HOME$/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino/USBCore.cpp" web="/" />
+            <mapping local="$USER_HOME$/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino/WMath.cpp" web="/" />
+            <mapping local="$USER_HOME$/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino/WString.cpp" web="/" />
+            <mapping local="$USER_HOME$/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino/abi.cpp" web="/" />
+            <mapping local="$USER_HOME$/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino/main.cpp" web="/" />
+            <mapping local="$USER_HOME$/Downloads/arduino-1.8.5/hardware/arduino/avr/cores/arduino/new.cpp" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
