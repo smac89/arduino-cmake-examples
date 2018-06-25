@@ -7,6 +7,7 @@ Examples based on arduino SDK version 1.8.5
 ### Usage
 Run CMake with the following option: `-DARDUINO_SDK_PATH=/path/to/arduino-sdk-version`
 
+![clion](images/example-clion.png)
 ### Thanks
 Wouldn't have been possible without the work done at:
 
