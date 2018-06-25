@@ -5,15 +5,10 @@ typedef unsigned long ulong;
 
 static void tempo(ulong currentTime);
 static void main_beat(ulong currentTime);
-
 static unsigned long get_interval(int ledState, ulong low, ulong high);
 
 const static uint8_t ledPin = LED_BUILTIN;
-const static uint8_t ledOther = 6;
-const static long tempo_interval = 820;
-
-const static unsigned interval_high = 600;
-const static unsigned interval_low = tempo_interval - interval_high;
+const static uint8_t ledOther = 9;
 
 int ledState = LOW;
 
@@ -30,13 +25,12 @@ void loop() {
     tempo(currentMillis);
 }
 
-void main_beat(unsigned long currentMillis) {
-    static unsigned long previousMillis = 415;
-    static unsigned interval_high = 300;
-    static unsigned interval_low = tempo_interval - interval_high;
-    static int ledState = HIGH;
+void main_beat(ulong currentMillis) {
+    static ulong previousMillis = 0;
+    static unsigned interval_high = 820;
+    static int ledState = LOW;
 
-    if (currentMillis - previousMillis >= get_interval(ledState, interval_low, interval_high)) {
+    if (currentMillis - previousMillis >= interval_high) {
         previousMillis = currentMillis;
 
         if (ledState == LOW) {
@@ -50,6 +44,8 @@ void main_beat(unsigned long currentMillis) {
 
 void tempo(unsigned long currentMillis) {
     static unsigned long previousMillis = 0;
+    const static unsigned interval_high = 600;
+    const static unsigned interval_low = 220;
     if (currentMillis - previousMillis >= get_interval(ledState, interval_low, interval_high)) {
         previousMillis = currentMillis;
 
